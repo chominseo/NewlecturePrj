@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>가입페이지</title>
+</head>
+<body>
+	<h1 class="hidden">가입페이지</h1>
+
+    <main>
+    <div id="main" class="signup">
+        <section class="line">
+	        <h1>로그인</h1>
+	        <form class="signup-form">
+		        <input type="text" placeholder="이름">
+		        <input type="email" placeholder="이메일">
+	            <input type="text" placeholder="휴대폰번호('-'없이 입력)">
+	            <input type="password" placeholder="새 비밀번호(영문, 숫자, 특수문자를 포함한 10~16자리)" minlength="10" maxlength="16">
+	            <input type="password" placeholder="비밀번호 확인">
+	            <div>
+	            	회원가입 버튼을 클릭하면 약관에 동의하며 쿠키 사용을 포함한<br/>
+	            	데이터 정책을 읽고 이해하신 것으로 간주됩니다.
+	            </div>
+	            <input type="submit" value="회원가입">
+	        </form>
+	        <div>
+	        	<span>이미 회원이신가요?</span><a href="/NewlecturePrj/member/login">로그인하기</a>
+	        </div>
+	        <section class="login-api">
+	        	<h1>SNS</h1>
+	        	<div class="login-kakao">
+	        		<a href="">카카오로 1초 만에 시작하기</a>
+	        	</div>
+	        	<div class="login-google">
+	        		<a href="">구글로 1초 만에 시작하기</a>
+	        	</div>
+	        </section>
+        </section>
+    </div>
+    </main>
+
+
+</body>
+</html>

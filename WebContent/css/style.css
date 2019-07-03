@@ -52,8 +52,197 @@ table {
 
 
 
-/* ------------------------------ 2. ------------------------------ */
+/* ------------------------------ 2. class ------------------------------ */
 
 .hidden {
 	display: none; 
 }
+
+
+
+/* ------------------------------ * 로그인페이지 * ------------------------------ */
+
+#main.login {
+	width: 100%;
+	background: #efefef;
+	height: 100vh;
+	padding-top: 50px; 
+}
+
+	#main.login .line {
+		background: #fff;
+		margin: 0 auto;
+		width: 400px;
+		border: 1px solid #e3e3e3; 
+		padding: 0 30px 30px; 
+	}
+
+		#main.login .line>h1 {
+			heigth: 70px; 
+			display: block;
+			text-align: center; 
+			line-height: 70px;
+		}
+		
+			#main.login .line .login-form input {
+				width: 100%; 
+				height: 40px;
+				display: block;
+				line-heigth: 40px;
+				text-indent: 10px;
+				border: 1px solid #e3e3e3;
+			}
+		
+			#main.login .line .login-form input[type=password] {
+				margin-top: 5px; 
+			}
+			
+			#main.login .line .login-form input[type=submit] {
+				margin-top: 10px;
+				background: #262626; 
+				color: #fff;
+			}
+			
+			#main.login .line>div {
+				height: 50px;
+			}
+			
+				#main.login .line>div a {
+					display: block;
+					height: 50px;
+					line-height: 50px; 
+					text-align: center;
+				}
+
+			#main.login .line .login-api {
+				position: relative;
+				border-top: 1px solid #e3e3e3;
+				padding-top: 20px;
+			}
+			
+				#main.login .line .login-api h1 {
+					position: absolute;
+					background: #fff;
+					padding: 0 20px;
+					left: 50%;
+					top: 0;
+					transform: translate(-50%, -50%); 
+				}
+				
+				#main.login .line .login-api div {
+					width: 100%;
+					height: 40px;
+					color: #fff;
+				}
+				
+				#main.login .line .login-api .login-kakao {
+					background: #ECBD00; 
+				}
+				
+				#main.login .line .login-api .login-google {
+					background: #CC2D0E;
+					margin-top: 5px; 
+				}
+				
+					#main.login .line .login-api div a {
+						display: block;
+						width: 100%;
+						height: 40px;
+						line-height: 40px;
+						text-align: center;
+					}
+				
+/* ------------------------------ * 회원가입페이지 * ------------------------------ */
+
+#main.signup {
+	width: 100%;
+	background: #efefef;
+	height: 100vh;
+	padding-top: 50px; 
+}
+
+	#main.signup .line {
+		background: #fff;
+		margin: 0 auto;
+		width: 400px;
+		border: 1px solid #e3e3e3; 
+		padding: 0 30px 30px; 
+	}
+
+		#main.signup .line>h1 {
+			heigth: 70px; 
+			display: block;
+			text-align: center; 
+			line-height: 70px;
+		}
+		
+			#main.signup .line .login-form input {
+				width: 100%; 
+				height: 40px;
+				display: block;
+				line-heigth: 40px;
+				text-indent: 10px;
+				border: 1px solid #e3e3e3;
+			}
+		
+			#main.signup .line .login-form input[type=password] {
+				margin-top: 5px; 
+			}
+			
+			#main.signup .line .login-form input[type=submit] {
+				margin-top: 10px;
+				background: #262626; 
+				color: #fff;
+			}
+			
+			#main.signup .line>div {
+				height: 50px;
+			}
+			
+				#main.signup .line>div a {
+					display: block;
+					height: 50px;
+					line-height: 50px; 
+					text-align: center;
+				}
+
+			#main.signup .line .login-api {
+				position: relative;
+				border-top: 1px solid #e3e3e3;
+				padding-top: 20px;
+			}
+			
+				#main.signup .line .login-api h1 {
+					position: absolute;
+					background: #fff;
+					padding: 0 20px;
+					left: 50%;
+					top: 0;
+					transform: translate(-50%, -50%); 
+				}
+				
+				#main.signup .line .login-api div {
+					width: 100%;
+					height: 40px;
+					color: #fff;
+				}
+				
+				#main.signup .line .login-api .login-kakao {
+					background: #ECBD00; 
+				}
+				
+				#main.signup .line .login-api .login-google {
+					background: #CC2D0E;
+					margin-top: 5px; 
+				}
+				
+					#main.signup .line .login-api div a {
+						display: block;
+						width: 100%;
+						height: 40px;
+						line-height: 40px;
+						text-align: center;
+					}				
+
+
+
