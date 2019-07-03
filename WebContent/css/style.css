@@ -1,0 +1,50 @@
+/* 1. 공통
+ * 1-1. reset css
+ * 
+ * 2. 일부 공통
+ * 
+ */
+
+
+/* ------------------------------ 1-1. reset ------------------------------ */
+*, html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, dl, dt, dd, ol,
+	ul, li, fidleset, form, label, button, input, textarea, select, option,
+	table, thead, tbody, tr, td, th, caption, article, aside, nav, header,
+	main, footer, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background: none;
+	font-size: 100%;
+	font-family: 'Malgun Gothic', san-serif;
+	letter-spacing: -1px;
+	box-sizing: border-box;
+	color: inherit;
+	line-height: 1;
+	box-shadow: none;
+}
+
+article, header, footer, nav, aside, section, main {
+	display: block;
+}
+
+template {
+	display: none;
+}
+
+a:link, a:focus, a:visited, a:active, a:hover {
+	text-decoration: none;
+	border: 0;
+	color: inherit;
+}
+
+ol, ul, li, dl, dt, dd {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
