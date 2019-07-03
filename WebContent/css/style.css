@@ -1,12 +1,12 @@
-/* 1. 공통
- * 1-1. reset css
+/* 1. reset
+ * 2. 공통
  * 
- * 2. 일부 공통
+ * 3. 일부 공통
  * 
  */
 
 
-/* ------------------------------ 1-1. reset ------------------------------ */
+/* ------------------------------ 1. reset ------------------------------ */
 *, html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, dl, dt, dd, ol,
 	ul, li, fidleset, form, label, button, input, textarea, select, option,
 	table, thead, tbody, tr, td, th, caption, article, aside, nav, header,
@@ -48,3 +48,12 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+/* ------------------------------ 2. ------------------------------ */
+
+.hidden {
+	display: none; 
+}
